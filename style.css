@@ -1,0 +1,143 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+a:link { 
+    color: black;
+    text-decoration: black;
+}
+a:visited {
+    color: black;
+    text-decoration: black;
+}
+a:hover {
+    color: black;
+    text-decoration: black;
+}
+a:active {
+    color: black;
+    text-decoration: black;
+}
+h3 {
+    color: #fff;
+}
+p {
+    color: #fff;
+}
+.fondo-playa {
+    background-image: url('./Imagenes/honolulu.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    
+}
+.fondo-gris {
+    background-color: black;
+    margin-top: 20px;
+}
+.Octubre {
+    margin-bottom: 300px;
+}
+.formulario {
+    padding: 0 20%;
+}
+.recuerda {
+    font-size: 0.75rem;
+    text-align: left;
+}
+.conoce {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.pad {
+    padding-top: 15%;
+    padding-right: 5%;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.tipo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 5%;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 5%;
+}
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 40px;
+}
+h5 {
+    font-size: 32px;
+}
+.texto {
+    font-size: 32px;
+}
+.texto1 {
+    font-size: 32px;
+}
+.card1 {
+    border: solid 1px blue;
+    border-radius:unset;
+}
+.card2 {
+    border: solid 1px green;
+    border-radius:unset;
+}
+.card3 {
+    border: solid 1px yellow;
+    border-radius:unset;
+}
+.card4 {
+    border: none;
+    font-size: 50px;
+}
+.total {
+    background-color: lightblue;
+    color: blue;
+}
+.botonera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boton {
+    background-color: #72be4e;
+    color: white;
+    width: 250px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.color-footer{
+    background-color: rgb(8, 78, 99);
+    padding: 1%;
+    text-align: center;
+    
+}
+
+.color-barra{
+    background-color: rgb(75, 70, 70);
+    padding: 0;
+}
+
+.color-boton {
+    background-color: rgb(138, 224, 148);
+}
+
+
+.tarjetas{
+    margin-left: 250px;
+   
+    
+}
+
+.boton-comprar{
+    background-color: rgb(111, 216, 111);
+}

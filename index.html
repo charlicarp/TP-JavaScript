@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TP Integrador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./estilos.css">
+  <link rel="stylesheet" href="./style1.css">
+  <link rel="stylesheet" href="./style.js">
+  </head> 
+  <body>  
+    <header><!--Header-->        
+      <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid ms-3">
+            <img src="./Imagenes/codoacodo.png" alt="Logo" width="150" height="80" class="d-inline-block align-text-center "></a>
+              <a class="navbar-brand text-white" href="./index.html"> Conf Bs As </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5 justify-content-around" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#Conferencia">La Conferencia</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center" href="#Oradores">Los Oradores</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center" href="" >El lugar y la Fecha</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center" href="#Orador">Conviertete en Orador</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center" href="./ticketera.html" style="color: rgb(7, 160, 53);">Comprar Tickets</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    </header><!--Fin Header-->
+  
+    <section>
+      <div class="card text-bg-dark">
+        <img src="./Imagenes/ba1.jpg" class="card-img" alt="..." >
+          <div class="card-img-overlay">
+            <p class="card-title text-end mt-5 pad">Conf Bs As</p>
+              <pre class="card-text text-end tipo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Blanditiis nesciunt, tempore, at sunt quis, 
+                laborum temporibus sapiente nobis officiis perferendis cumque odio. 
+                Dolor excepturi repellendus alias a itaque nihil eligendi.
+              </pre>
+              
+                <button type="button" class="btn btn-success float-end me-5">Comprar Tickets</button>
+                <button type="button" class="btn btn-outline-light float-end me-3">Quiero ser orador</button>
+          </div>
+      </div>
+    </section>
+
+    <main class="container mt-4 mb-4"><!--Inicio Main-->
+      <section id="Oradores"><!--Inicio Columnas-->
+          <h4 class="text-center">CONOCE A LOS</h4>
+          <h1 class="text-center">ORADORES</h1>
+          <div class="d-flex justify-content-around">
+            <div class="row"> <!--Contenedor de tipo Fila-->  
+              <div class="col col-md-4"> <!--Columna 1-->
+                <div class="card">
+                    <img src="./Imagenes/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge text-bg-warning">JavaScript</span> <span class="badge text-bg-info">React</span>
+                    <h5 class="card-title fw-bold">Steve Jobs</h5>
+                    <p class="card-text text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                 
+                    </div>
+                </div>
+              </div> <!--Fin Columna 1--> 
+              <div class="col col-md-4"> <!--Columna 2-->
+                <div class="card">
+                    <img src="./Imagenes/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge text-bg-warning">JavaScript</span> <span class="badge text-bg-info">React</span>
+                    <h5 class="card-title fw-bold">Bill Gates</h5>
+                    <p class="card-text text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>        
+                    </div>
+                </div>
+              </div> <!--Fin Columna 2-->  
+              <div class="col col-md-4"> <!--Columna 3-->
+              <div class="card">
+                  <img src="./Imagenes/ada.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <span class="badge text-bg-info">Negocios</span> <span class="badge text-bg-danger">Startups</span>
+                  <h5 class="card-title fw-bold">Ada Lovelace</h5>
+                  <p class="card-text text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                  
+                  </div>
+              </div>
+              </div> <!--Fin Columna 3-->
+            </div>
+          </div>
+      </section><!--Fin Columnas--> 
+    </main><!--Fin Main-->  
+
+    <section>  <!--Pie de tarjetas-->
+      <div class="row conoce" id="Conferencia">
+          <div class="col fondo-playa">
+          </div>
+          <div class="col fondo-gris">
+            <h3 class="mt-4" id="Fecha">Bs As - Octubre</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, veritatis. Quidem earum eveniet in minus sit soluta? Voluptatum, deserunt reiciendis maiores atque facere vel fugiat quisquam pariatur dolorum porro obcaecati.</p>
+            <button type="button" class="btn btn-outline-light Octubre" href="#">Conoce Mas</button>
+          </div>
+      </div>
+    </section> <!--Fin Pie de tarjetas-->
+
+    <section> <!--Formulario-->
+        <div class="container-form border">
+            <div class="text-center mt-2">
+                <h4 id="Orador">CONVIERTETE EN UN ORADOR</h4>
+                <h1 class="fw-bolder">ORADOR</h1>
+                <p class="text-black">Anotate como orador para dar una <a href=""> charla ignite</a>. Cuentanos de que quieres hablar!</p>
+            </div>
+            <div class="formulario" >
+              <div class="row g-3">
+                  <div class="col">
+                    <input  type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre que quieres hablar?" rows="3"></textarea>
+              </div>
+              <p class="recuerda">Recuerda incluir un titulo para tu charla</p>
+              <div class="d-grid gap-2">
+                  <button class="btn btn-success boton-enviar" type="button">Enviar</button>
+                </div>
+          </div>
+        </div>
+    </section><!--Fin Formulario-->
+
+    <footer>
+      <nav class="navbar navbar-expand-lg bg-dark p-4">
+        <div class="container-fluid ms-3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5 justify-content-around" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#">Prensa</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#">Conferencia</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#">Terminos y Condiciones</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-center text-light" href="#">Estudiantes</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    </footer>
+
+    <!--Inicio Scripts-->
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/0020f36898.js" crossorigin="anonymous"></script>
+    <!--Fin Scripts-->
+  </body>
+</html>
