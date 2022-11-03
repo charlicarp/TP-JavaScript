@@ -15,7 +15,7 @@
     <header class="container-padre color-barra sticky-top"  > <!--menu-->
       <nav class="color-barra navbar navbar-expand-lg navbar navbar-dark bg-dark" >
         <div class="container-fluid color-barra" >
-            <a class=" navbar-brand text-bs-gray-dark p-2" href="#"><img src="./codoacodo.png" alt="logo" width="100px"> Conf Bs As</a>
+            <a class=" navbar-brand text-bs-gray-dark p-2" href="./index.html"><img src="./codoacodo.png" alt="logo" width="100px"> Conf Bs As</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -78,10 +78,11 @@
         </section>
         <section class="container mt-5 col-lg-8 col-xl-7" id="form-orador">
           <div class="row justify-content-center">
-            <div>           
-              <h6 class="mb-2 text-muted text-center" >VENTA</h6>
-              <h2 class="text-center" id="comprar">VALOR DE TICKET $200</h2>
-            </div>
+            <form>
+              <div>           
+                <h6 class="mb-2 text-muted text-center" >VENTA</h6>
+                <h2 class="text-center" id="comprar">VALOR DE TICKET $200</h2>
+              </div>
               <div class="row ">
                 <div class="col mb-3 " >
                   <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="nombre" >
@@ -90,7 +91,7 @@
                   <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="apellido" >
                 </div>
               </div>
-              <div class="col  mb-3">
+              <div class="col mb-3">
                 <input type="email" class="form-control" placeholder="Correo" aria-label="email" id="email" >
               </div>
               <div class="row ">
@@ -115,7 +116,7 @@
               </div>  
               <div class="container-sm mt-5 px-5 col-lg-12 col-xl-12">
                 <div class="justify-content-md-center">
-              <div class="row row-cols-2 g-3 ">
+                <div class="row row-cols-2 g-3 ">
                   <button type="reset" class="btn btn-success btn-lg boton-comprar " id="borrar">Borrar</button>
                   <button type="button" class="btn btn-success btn-lg boton-comprar " id="resumen">Resumen</button>
                 </div>
@@ -127,7 +128,8 @@
                   <p id="mensajeCantidad"></p>
                   <p id="mensajeCategoria"></p>
                 </div>
-              </div>     
+              </div>  
+            </form>   
           </div>    
         </section>
     </main>
